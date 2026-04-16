@@ -1,16 +1,3 @@
-Here are the exact requirements.txt and README.md files you need. I have written the README to perfectly match Dr. Ensaf's rubric, specifically highlighting your advanced trade-off analysis and your discovery of the LLM ceiling effect.
-
-You can copy and paste these directly into your GitHub repository or ZIP folder!
-
-1. requirements.txt
-Plaintext
-pandas
-openpyxl
-openai
-matplotlib
-seaborn
-sentence-transformers
-2. README.md
 Markdown
 # Pedagogical Math Hint Generation: Evaluating Agentic Architectures
 
@@ -79,9 +66,3 @@ The Cost vs. Safety Trade-off: Approach 1 (Self-Refine) and Approach 2 (Validati
 The Ceiling Effect & RAG Distraction: Our qualitative LLM-as-a-Judge evaluation (using Llama 70B to grade Llama 70B) suffered from severe Intra-Model Bias, giving nearly all approaches a perfect 5.0/5.0. It confidently rated Approach 3 (RAG) as perfectly pedagogical. However, our simulated student failed 54% of the time when using those RAG hints. This proves that rigidly constraining an LLM with external RAG rules can cause a "distraction effect," breaking the model's fluid reasoning.
 
 Final Verdict: Qualitative LLM evaluation is insufficient for educational AI; objective multi-agent validation (Approach 2) is required to guarantee both mathematical accuracy and system efficiency.
-
-
----
-
-### Final Tip for Your Submission
-Put these two files in your main project folder alongside your Excel files, your Python scripts, and your PNG charts. If you submit exactly this, you are handing in a flawless, publication-style repository!
