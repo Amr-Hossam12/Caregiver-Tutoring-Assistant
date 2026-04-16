@@ -9,7 +9,7 @@ from openai import OpenAI
 # 1. API CONFIGURATION
 # ==========================================
 # Make sure to put your active Groq key here
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "YOUR_GROQ_API"
 client = OpenAI(api_key=GROQ_API_KEY, base_url="https://api.groq.com/openai/v1")
 JUDGE_MODEL = "llama-3.3-70b-versatile"
 
