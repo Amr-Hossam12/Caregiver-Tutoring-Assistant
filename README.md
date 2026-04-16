@@ -29,7 +29,7 @@ The pipeline is divided into three standalone scripts and one evaluation script.
 1. `python approach1_self_refine.py`
 2. `python approach2_validation_loop.py`
 3. `python approach3_rag_agent.py` 
-4. `python evaluate_judge.py` *(Generates final visual charts)*
+4. `python Judge LLM.py`
 
 ## 3. The Three Methodologies
 
