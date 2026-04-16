@@ -1,4 +1,4 @@
-# Pedagogical Math Hint Generation: Evaluating Agentic Architectures
+# Educational Math Hint Generation: Evaluating Agentic Architectures
 
 ## 1. Project Abstract
 When caregivers use Large Language Models (LLMs) to help children with math homework, standard Zero-Shot prompting frequently results in "Answer Leakage"—giving away the final answer rather than providing Socratic scaffolding. 
