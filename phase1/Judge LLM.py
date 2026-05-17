@@ -66,9 +66,9 @@ def evaluate_pairwise(problem, correct_answer, student_error, hint_a, hint_b):
 # 3. ORCHESTRATOR & DATA MERGING
 # ==========================================
 print("Loading the 3 Result Datasets...")
-df1 = pd.read_excel("Results/Approach1_SelfRefine_Results.xlsx")
-df2 = pd.read_excel("Results/Approach2_ValidationLoop_Results.xlsx")
-df3 = pd.read_excel("Results/Phase1_Agentic_Results.xlsx") 
+df1 = pd.read_excel("../results/Approach1_SelfRefine_Results.xlsx")
+df2 = pd.read_excel("../results/Approach2_ValidationLoop_Results.xlsx")
+df3 = pd.read_excel("../results/Phase1_Agentic_Results.xlsx")
 
 # Win counters
 wins = {
