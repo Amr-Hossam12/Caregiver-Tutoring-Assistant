@@ -345,9 +345,8 @@ if not GEMINI_API_KEY:
 # Router
 # ---------------------------------------------------------------------------
 
-{
-    "setup":   _render_setup,
-    "attempt": _render_attempt,
-    "result":  _render_result,
-    "done":    _render_done,
-}.get(st.session_state.phase, _render_setup)()
+_phase = st.session_state.get("phase", "setup")
+if   _phase == "attempt": _render_attempt()
+elif _phase == "result":  _render_result()
+elif _phase == "done":    _render_done()
+else:                     _render_setup()
