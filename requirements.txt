@@ -1,6 +1,8 @@
-pandas
-openpyxl
-openai
-matplotlib
-seaborn
-sentence-transformers
+google-genai>=1.0.0
+langgraph>=1.0.0
+langchain>=1.1.0
+chromadb>=1.5.0
+pandas>=2.0.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+streamlit>=1.57.0

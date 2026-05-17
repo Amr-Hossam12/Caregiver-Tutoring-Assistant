@@ -1,0 +1,14 @@
+# API keys — never commit
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# ChromaDB vector store (large binary, regenerated on first run)
+chroma_db/
+
+# OS files
+.DS_Store
+Thumbs.db
