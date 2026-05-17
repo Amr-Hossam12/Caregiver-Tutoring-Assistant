@@ -1,8 +1,5 @@
 # Educational Math Hint Generation: Evaluating Agentic Architectures
 
-**Course:** NLP Applications — Nile University  
-**Authors:** Hossam Nasr & Mohamed Nashaat Ibrahim
-
 ---
 
 ## Project Abstract
